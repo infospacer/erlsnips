@@ -8,7 +8,7 @@ r(Module) ->
 	code:load_file(Module).
 
 %Compile and reload file
-cr(Module) ->
+c(Module) ->
 	Path = "./src/"++atom_to_list(Module)++".erl",
 	compile:file(Path,[{outdir, "./ebin"}]),
 	code:delete(Module),
