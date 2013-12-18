@@ -1,3 +1,4 @@
+% Reload compile module
 -module(mr).
 -compile(export_all).
 
