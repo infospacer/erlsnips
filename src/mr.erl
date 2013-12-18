@@ -2,6 +2,7 @@
 % mr:r(M) - only reloads
 % mr:c(M) - compiles and eloads
 % git test
+% else one change
 
 -module(mr).
 -compile(export_all).
