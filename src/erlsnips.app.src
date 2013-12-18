@@ -1,0 +1,9 @@
+%% This is the application resource file (.app file) for the erlsnips
+{application, erlsnips,
+  [{description, "Some snips for erlang"},
+   {vsn, "0.0.1"},
+   {registered,[]},
+   {applications, [kernel,stdlib]},
+   {build_dependencies, []},
+   {env, []}
+]}.
