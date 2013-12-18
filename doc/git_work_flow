@@ -1,0 +1,58 @@
+##################################
+Initial clone from github to local
+##################################
+
+1. git clone with ssh or https
+
+ssh (read about ssh in docs)
+________________________________________________
+git clone git@github.com:infospacer/erlsnips.git
+________________________________________________
+
+https (read about https in docs)
+____________________________________________________
+git clone https://github.com/infospacer/erlsnips.git
+____________________________________________________
+
+#############
+Local changes
+#############
+
+2. git add
+
+Add all files (excluding .gitignore) to git
+__________
+git add * 
+__________
+
+3. Make any changes
+
+4. git commit 
+
+Commit changes
+______________________________________
+git commit -m 'describing our changes'
+______________________________________
+
+####################
+From local to github
+####################
+
+5. git push
+
+Push changes to github
+______________________
+git push origin master
+______________________
+
+####################
+From github to local
+####################
+
+6. git pull
+
+Pull changes made on github to local
+________
+git pull
+________
+
