@@ -3,7 +3,7 @@
   [{description, "Some snips for erlang"},
    {vsn, "0.0.1"},
    {registered,[]},
-   {applications, [kernel,stdlib,erlsnips]},
+   {applications, [kernel,stdlib]},
    {build_dependencies, []},
    {mod, {erlsnips_app, []}},
    {env, []}
