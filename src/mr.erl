@@ -16,7 +16,11 @@ r(Module) ->
 %Compile and reload file
 c(Module) ->
 	Path = "./src/"++atom_to_list(Module)++".erl",
-	compile:file(Path,[{outdir, "./ebin"}]),
-	code:delete(Module),
-	code:purge(Module),
-	code:load_file(Module).
+	case ({ok,Module} == compile:file(Path,[{outdir, "./ebin"}])) of
+		true -> io:format("Module ~w is succesfully compiled~n",[Module]);
+		_ -> error
+	end.
+	% code:delete(Module),
+	% code:purge(Module),
+	% code:load_file(Module).
+
