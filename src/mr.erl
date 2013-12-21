@@ -1,8 +1,8 @@
 % Functions to reload and compile modules
 % mr:r(M) - only reloads
 % mr:c(M) - compiles and eloads
-% git test
-% else one change
+% git test again
+
 
 -module(mr).
 -compile(export_all).
